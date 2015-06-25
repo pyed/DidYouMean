@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Actions</key>
+	<array>
+		<dict>
+			<key>After</key>
+			<string>paste-result</string>
+			<key>Image File</key>
+			<string>didyoumean.png</string>
+			<key>Shell Script File</key>
+			<string>didyoumean.sh</string>
+			<key>Regular Expression</key>
+			<string>([a-zA-Z-&apos;]+)</string>
+			<key>Stoppable</key>
+			<true/>
+			<key>Title</key>
+			<string>DidYouMean</string>
+		</dict>
+	</array>
+	<key>Credits</key>
+	<array>
+		<dict>
+			<key>Link</key>
+			<string>mailto:iAbdulelah@gmail.com</string>
+			<key>Name</key>
+			<string>Abdulelah</string>
+		</dict>
+	</array>
+	<key>Extension Description</key>
+	<string>Let Google&apos;s &quot;Did you mean&quot; correct your spelling errors</string>
+	<key>Extension Identifier</key>
+	<string>com.pyed.popclip.extension.didyoumean</string>
+	<key>Extension Name</key>
+	<string>DidYouMean</string>
+	<key>Version</key>
+	<integer>1</integer>
+</dict>
+</plist>
